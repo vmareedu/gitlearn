@@ -13,7 +13,7 @@ public class TestNgJenkis {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://www.cgi.com");
 		Assert.assertTrue(driver.getTitle().contains("CGI"));
-		System.out.println("TestNG xml file executed successfully");
+		//System.out.println("TestNG xml file executed successfully");
 		
 	}
 	
